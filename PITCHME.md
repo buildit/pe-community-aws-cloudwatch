@@ -1,5 +1,3 @@
-theme : moon
-theme-override : assets/css/PITCHME.css
 
 #### AWS CloudWatch Overview
 
