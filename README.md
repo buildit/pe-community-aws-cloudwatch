@@ -1,3 +1,5 @@
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/buildit/pe-community-aws-cloudwatch/gitpitch)
+
 CloudWatch Example Project
 ==========================
 This project is a simple/stupid example of setting up and using CloudWatch Logging, Metrics, and Alerts.  
@@ -50,3 +52,4 @@ the AWS console and navigate to CloudWatch.  Note the sub-sections of CloudWatch
    If you experimented as suggested above, the graphs should show some interesting activity (your own, and that 
    of others that are running the code). 
  - Experiment with Dashboards:  try creating a Dashboard (Actions in the Graph Options tab of Metrics).
+

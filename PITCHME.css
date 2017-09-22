@@ -1,0 +1,7 @@
+.reveal .slides {
+    text-align: left;
+}
+
+.reveal p, .reveal li {
+    font-size: 90%;
+}
