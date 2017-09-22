@@ -40,9 +40,16 @@ But it's vastly simplified over user-managed service/agent-based solutions.
 #### Main Takeaways
  - You don't have to be "in AWS" to use CW Logs
  - You can watch _any_ log file
- - You can publish custom log data (metrics) with simple API calls
+ - You can _easily_ publish arbitrary log data (metrics) with simple API calls
  - You can alert on any metric you can publish
  - You can graph any metric you can publish
- - However, any logging/monitoring going on in AWS _is_ CW
 
+---
+
+#### Demo
+ - Vagrant-based (demonstrates basic provisioning, and that CW can run anywhere)
+ - Watching syslog, auth log, a silly "sine" log
+ - Script to post silly "sine" data to a custom metric
+ - A look at a CW Dashboard created for this chat
+ 
 
