@@ -1,3 +1,5 @@
+theme : moon
+theme-override : assets/css/PITCHME.css
 
 #### AWS CloudWatch Overview
 
@@ -48,8 +50,11 @@ But it's vastly simplified over user-managed service/agent-based solutions.
 
 #### Demo
  - Vagrant-based (demonstrates basic provisioning, and that CW can run anywhere)
- - Watching syslog, auth log, a silly "sine" log
+   - Note that non-EC2 uses require setting up credentials
+   - In EC2 you'd use an instance profile (role) with appropriate permissions
+ - Use awslogs agent to watch `syslog`, `auth.log`, a silly "sine" log
  - Script to post silly "sine" data to a custom metric
+ - Use a metric and alert to notify when a user account is added
  - A look at a CW Dashboard created for this chat
  
 
