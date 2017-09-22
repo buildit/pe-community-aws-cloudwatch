@@ -1,6 +1,7 @@
 .reveal .slides {
     text-align: left;
 }
-p {
-    font-size: smaller;
+
+.reveal p, .reveal li {
+    font-size: 90%;
 }
