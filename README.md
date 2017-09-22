@@ -1,7 +1,7 @@
-CloudWatch Logging Example
+CloudWatch Example Project
 ==========================
-This project is a simple/stupid example of setting up and using CloudWatch logging.  Normally,
-you'd do this in an EC2 instance, but I thought it would be useful/convenient to automate and
+This project is a simple/stupid example of setting up and using CloudWatch Logging, Metrics, and Alerts.  
+Normally, you'd do this in an EC2 instance, but I thought it would be useful/convenient to automate and
 demonstrate using Vagrant.
 
 Prerequisites
