@@ -1,4 +1,4 @@
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/buildit/pe-community-aws-cloudwatch/gitpitch)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/buildit/pe-community-aws-cloudwatch)
 
 CloudWatch Example Project
 ==========================
