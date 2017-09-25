@@ -41,7 +41,9 @@ Everywhere you look, CloudWatch logs and metrics are at play.
 
 #### Best Thing About CW
 
-It's centralized logging as a service (CLaaS?).  No instances to manage, no agents to configure.  Game over.
+**It's centralized logging as a service (CLaaS?).**
+
+No instances to manage, no agents to configure.  Game over.
 
 OK, well, game not quite over.  You do have to install the CLI, an agent or two, and configure.
 
