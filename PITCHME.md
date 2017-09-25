@@ -3,6 +3,10 @@
 
 ---
 
+#### Hey Mike -- `vagrant up`!
+
+---
+
 #### What We'll Cover
  - CloudWatch Logs
  - CloudWatch Metrics
@@ -27,6 +31,14 @@ You can compare with:
  
 ---
 
+#### CloudWatch is Ubiquitous
+
+Well, in AWS anyway!
+
+Everywhere you look, CloudWatch logs and metrics are at play.
+ 
+---
+
 #### Best Thing About CW
 
 It's centralized logging as a service (CLaaS?).  No instances to manage, no agents to configure.  Game over.
@@ -34,6 +46,8 @@ It's centralized logging as a service (CLaaS?).  No instances to manage, no agen
 OK, well, game not quite over.  You do have to install the CLI, an agent or two, and configure.
 
 But it's vastly simplified over user-managed service/agent-based solutions.
+
+If it's good enough for Amazon, it's probably good enough for us (?)
 
 ---
 
@@ -55,4 +69,3 @@ But it's vastly simplified over user-managed service/agent-based solutions.
  - Use a metric and alert to notify when a user account is added
  - A look at a CW Dashboard created for this chat
  
-
