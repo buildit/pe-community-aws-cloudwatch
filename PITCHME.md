@@ -27,7 +27,7 @@ You can compare with:
  - ElasticStack/Elk
  - Splunk
  
-(Yeah, these aren't apples-to-apples, but you get the idea.  I'm not a logging heavy.)
+(Yeah, these aren't apples-to-apples, but you get the idea.  I'm not a logging genius.)
  
 ---
 
@@ -43,13 +43,18 @@ Everywhere you look, CloudWatch logs and metrics are at play.
 
 **It's centralized logging as a service (CLaaS?).**
 
-No instances to manage, no agents to configure.  Game over.
+No central server(s) to configure and manage.  Game over.
 
-OK, well, game not quite over.  You do have to install the CLI, an agent or two, and configure.
+---
 
-But it's vastly simplified over user-managed service/agent-based solutions.
+#### OK, Game not Quite Over
 
-If it's good enough for Amazon, it's probably good enough for us (?)
+Locally you _do_ need to:
+ - install/configure the AWS CLI and/or ...
+ - install/configure any local agent or agents and/or ...
+ - import the appropriate API
+
+But it's still very simplified compared to user-managed agent/server solutions, IMO.
 
 ---
 
@@ -59,6 +64,7 @@ If it's good enough for Amazon, it's probably good enough for us (?)
  - You can _easily_ publish arbitrary log data (metrics) with simple API calls
  - You can alert on any metric you can publish
  - You can graph any metric you can publish
+ - If it's good enough for Amazon, it's probably good enough for us (?)
 
 ---
 
